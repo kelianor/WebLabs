@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание 1</title>
+    </head>
+    <body>
+        <form method="post">
+            <table cellpadding="5">
+                <tr valign="top">
+                    <td></td>
+                    <td>
+                        <font color="red">
+                            <b>Форма регистрации</b>
+                        </font>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>Имя</label>
+                    </td>
+                    <td>
+                        <input type="text" name="first-name" required>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>email</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" required>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>Пароль</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" required>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>Повтор пароля</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" required>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>Пол</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="sex" value="man">
+                        <label>Мужской</label>
+                        <input type="radio" name="sex" value="woman">
+                        <label>Женский</label>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>Увлечения</label>
+                    </td>
+                    <td>
+                        <select multiple name="hobbies">
+                            <option value="computers">компьютеры</option>
+                            <option value="sports">спорт</option>
+                            <option value="games">игры</option>
+                            <option value="animals">животные</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>Ваши пожелания</label>
+                    </td>
+                    <td>
+                        <textarea name="wishes"></textarea>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="right">
+                        <label>С условиями регитсрации ознакомлен</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="terms" required>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td></td>
+                    <td align="right">
+                        <button type="submit">Отправить</button>
+                        <button type="reset">Очистить</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

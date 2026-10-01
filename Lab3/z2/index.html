@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 2 - Анкета</title>
+</head>
+<body>
+    <h2>Анкета владельца питомца</h2>
+    <form method="post">
+        <table cellpadding="5">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Личные данные владельца</legend>
+                        <table cellpadding="5" width="100%">
+                            <tr>
+                                <td align="right">
+                                    <label>Ваше имя:</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="username" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label>Электронная почта:</label>
+                                </td>
+                                <td>
+                                    <input type="email" name="email" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label>Номер телефона:</label>
+                                </td>
+                                <td>
+                                    <input type="tel" name="phone">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label>Придумайте пароль личного кабинета:</label>
+                                </td>
+                                <td>
+                                    <input type="password" name="pass" required>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Информация о вашем любимце</legend>
+                        <table>
+                            <tr>
+                                <td align="right">Тип питомца:</td>
+                                <td>
+                                    <input type="radio" name="pet" value="dog">
+                                    <label>Собака</label>
+                                    
+                                    <input type="radio" name="pet" value="cat">
+                                    <label>Кошка</label>
+                                    
+                                    <input type="radio" name="pet-type" value="other">
+                                    <label>Другой</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right" valign="top">Чем вы его кормите?:</td>
+                                <td>
+                                    <input type="checkbox" name="food" value="dry">
+                                    <label>Сухой корм</label><br>
+                                    
+                                    <input type="checkbox" name="food" value="wet">
+                                    <label>Влажный корм</label><br>
+                                    
+                                    <input type="checkbox" name="food" value="natural">
+                                    <label>Натуральная еда</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Фото вашего питомца:</td>
+                                <td>
+                                    <input type="file" name="photo" accept="image/*">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Отправить анкету">
+                    <input type="reset" value="Сбросить ответы">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
