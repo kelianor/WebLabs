@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Kablammo-Regular';
+  src: url('../fonts/Kablammo-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Kelly-Slab';
+  src: url('../fonts/KellySlab-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Kelianor-Regular';
+  src: url('../fonts/Kelianor-Regular.ttf');
+}
+
+body
+{
+    background-color: #E8E2CF;
+}
+
+.content
+{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#the-matrix
+{
+    font-family: 'Kelly-Slab';
+}
+
+#inception
+{
+    font-family: 'Kablammo-Regular';
+}
+
+#interstellar
+{
+    font-family: 'Kelianor-Regular';
+}
+
+.film-links a[href^="#"]
+{
+    color: black;
+    text-decoration: none;
+}
+.film-links ul
+{
+    list-style: none;
+}
+
+#the-matrix p
+{
+    text-align: center;
+}
+
+#inception p
+{
+    text-align: justify;
+}
+
+#interstellar p
+{
+    text-align: right;
+}
+
+img
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+thead td, th {
+    font-weight: bold;
+}
+
+.content h1, h2, h3, h4, h5
+{
+    text-align: center;
+}
+
+.bold-text
+{
+    font-weight: bold;
+}
